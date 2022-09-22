@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+/**
+ * main - entry point
+ *
+ * Retrun: Always 0 (Success)
+ */
+int main(void)
+{
+	int i;
+
+	for (i = 0; 1 < 10; i++)
+		printf("%d", i);
+	printf("\n");
+
+
+	return (0);
+}
+
+
