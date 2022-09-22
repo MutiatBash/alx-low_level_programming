@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-/**
+/** 
  * main - entry point
  *
  * Return: Always 0 (Success)
@@ -19,7 +19,7 @@ int main(void)
 			if (p != d)
 			{
 				putchar(d);
-				putchar(d);
+				putchar(p);
 
 				if (d == '8' && p == '9')
 					continue;
@@ -30,6 +30,7 @@ int main(void)
 		}
 	}
 	putchar('\n');
+	
 	return (0);
 }
 
